@@ -8,34 +8,35 @@
     tools:context="com.example.android.ownudacitycard.MainActivity"
     >
 
-
-
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:scaleType="fitCenter"
         android:src="@drawable/saveearth"
         android:padding="10dp"
-        android:background="#52ff5e"/>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:background="#868483"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#ff52f9"/>
+            android:layout_height="5dp"
+            android:background="#ff6201"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#fffaf9"/>
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#63f92c"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0"
             android:text="Made By Shashankesh"
-            android:textSize="32sp"
+            android:textSize="36sp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:fontFamily="sans-serif-light"
-            android:background="#FF0080"
+            android:background="#29b4ff"
             />
-    </RelativeLayout>
+
 
 </LinearLayout>
