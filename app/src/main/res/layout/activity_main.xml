@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.ownudacitycard.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.example.android.ownudacitycard.MainActivity"
+    >
+
+
+
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="450dp"
+        android:scaleType="fitCenter"
         android:src="@drawable/saveearth"
-        android:scaleType="centerCrop"/>
+        android:padding="10dp"
+        android:background="#52ff5e"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff52f9"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Made By Shashankesh"
+            android:textSize="32sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-light"
+            android:background="#FF0080"
+            />
+    </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="From Shashankesh"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textSize="36sp"
-        android:textColor="#f90334"
-        android:fontFamily="sans-serif-light"/>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
