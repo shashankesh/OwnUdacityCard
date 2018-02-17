@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/saveearth"
         android:padding="33dp"
+        android:src="@drawable/saveearth"
         android:background="#000000"
         android:layout_weight="1"/>
     <View
