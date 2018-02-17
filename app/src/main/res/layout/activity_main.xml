@@ -11,23 +11,24 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="450dp"
-        android:scaleType="fitCenter"
+        android:scaleType="centerCrop"
         android:src="@drawable/saveearth"
-        android:padding="10dp"
-        android:background="#868483"/>
-        <View
+        android:padding="33dp"
+        android:background="#000000"
+        android:layout_weight="1"/>
+    <View
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:background="#ff6201"/>
+            android:background="#ff6201" />
     <View
         android:layout_width="match_parent"
         android:layout_height="4dp"
         android:background="#fffaf9"/>
-        <View
+    <View
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:background="#63f92c"/>
-        <TextView
+    <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Made By Shashankesh"
@@ -35,8 +36,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:fontFamily="sans-serif-light"
-            android:background="#29b4ff"
-            />
+            android:background="#29b4ff" />
 
 
 </LinearLayout>
